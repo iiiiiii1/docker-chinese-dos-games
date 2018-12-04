@@ -11,4 +11,4 @@ WORKDIR /chinese-dos-games
 
 EXPOSE 8080
 
-CMD [gunicorn -w 5 -b 0.0.0.0:8080 app:app]
+CMD gunicorn -w 5 -b 0.0.0.0:8080 app:app
